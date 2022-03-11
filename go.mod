@@ -9,5 +9,5 @@ require (
 	github.com/sirupsen/logrus v1.8.1
 	github.com/stretchr/testify v1.7.0
 	github.com/unionj-cloud/cast v1.3.2
-	github.com/unionj-cloud/go-doudou v1.0.0
+	github.com/unionj-cloud/go-doudou v1.0.2
 )
