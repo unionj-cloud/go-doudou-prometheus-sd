@@ -40,6 +40,7 @@ RUN chmod 755 start.sh
 
 COPY --from=builder /repo/api api
 COPY --from=builder /repo/.env .env
+COPY --from=builder /repo/.env.prod .env.prod
 
 ENTRYPOINT [ "/usr/bin/env" ]
 CMD ["/bin/bash", "/repo/start.sh"]
